@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://aneagoie.github.io/robofriends-pwa",
   "dependencies": {
+    "enzyme": "^3.11.0",
     "gh-pages": "^3.2.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -33,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@testing-library/react": "^14.0.0",
+    "react-test-renderer": "^18.2.0"
   }
 }
